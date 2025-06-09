@@ -1,0 +1,166 @@
+.gallery img{
+    width: 100%;
+    
+}
+h4{
+    color: red;
+    font-family: fantasy;
+}
+p{
+    font-family:sans-serif; 
+}
+h2{
+    font-family: sans-serif;
+    color: black;
+    
+}
+#Menu-Bar a {
+    font-family: sans-serif;
+   text-decoration: none;
+     padding: inherit
+}
+#Menu-Bar a:hover{ background-color: aqua;
+    word-spacing:normal;
+   
+}
+#Menu-Bar{
+   
+    color: green;
+}
+
+/* Basic reset */
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the menu bar */
+#Menu-Bar {
+  position: fixed;
+  z-index:500;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+/* Remove bullet points and align items horizontally */
+#Menu-Bar  {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style each menu item */
+#Menu-Bar {
+  margin: 0 20px;
+}
+
+/* Style links */
+#Menu-Bar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+#gallery{
+    
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.contact-section {
+  background-color: #f8f8f8;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+  background-color: #333;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-details {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-details li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contact-details a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    /*display: flex;
+    justify-content:flex-end;*/
+}
+p{
+    
+    font-family: sans-serif;
+}
+#HERO-SECTION{
+    background-image: url(images/)
+}
+.form-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #161b22;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.form-container h2 {
+  color: #e62429;
+  margin-bottom: 20px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.form-container button {
+  padding: 12px;
+  background-color: #e62429;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #c21d23;
+}
+
+.form-container a {
+  color: #58a6ff;
+  text-decoration: none;
+}
